@@ -7,7 +7,7 @@ cleaner = DataCleaner('../data/sample_data.csv')
 cleaner.handle_missing_values(strategy='mean', columns=['age', 'salary'])
 cleaner.handle_missing_values(strategy='constant', fill_value='Unknown', columns=['city'])
 
-# Remove duplicates
+# Remove duplicates(code in code)
 cleaner.remove_duplicates()
 
 # Add a new column
