@@ -35,4 +35,5 @@ class DataCleaner:
 
     def get_data(self):
         return self.data
+#SelfDataCourse
 #Concluded
