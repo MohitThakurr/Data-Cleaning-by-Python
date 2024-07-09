@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-
+#Numpy Data Cleaning
 class DataCleaner:
     def __init__(self, file_path):
         self.data = pd.read_csv(file_path)
