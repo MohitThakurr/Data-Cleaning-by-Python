@@ -20,7 +20,7 @@ class DataCleaner:
                 self.data[column].fillna(fill_value, inplace=True)
             else:
                 raise ValueError("Invalid strategy: choose from 'mean', 'median', 'mode', 'constant'")
-    #Duplicate removing from Main file- 2334
+    #Duplicate removing from Main file- 383847
     def remove_duplicates(self):
         self.data.drop_duplicates(inplace=True)
     
