@@ -10,7 +10,7 @@ cleaner.handle_missing_values(strategy='constant', fill_value='Unknown', columns
 # Remove duplicates(code in code)
 cleaner.remove_duplicates()
 
-# Add a new column
+# Add a new column and work
 cleaner.add_column('salary_in_k', cleaner.get_data()['salary'] / 1000)
 
 # Save the cleaned data
