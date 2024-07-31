@@ -27,6 +27,8 @@ class DataCleaner:
     
     def add_column(self, column_name, data):
         self.data[column_name] = data
+         def add_column(self, column_name, data):
+        self.data[column_name] = data
     
     def transform_column(self, column_name, function):
         self.data[column_name] = self.data[column_name].apply(function)
