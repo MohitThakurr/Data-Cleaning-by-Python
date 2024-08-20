@@ -29,7 +29,7 @@ class DataCleaner:
             self.data.drop_duplicates(inplace=True)
         self.data.drop_duplicates(inplace=True)
 
-
+#
     def add_column(self, column_name, data):
         self.data[column_name] = data
          def add_column(self, column_name, data):
