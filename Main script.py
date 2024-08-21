@@ -16,7 +16,7 @@ cleaner.add_column('salary_in_k', cleaner.get_data()['salary'] / 1000)
 # Save the cleaned data
 cleaner.save_cleaned_data('../data/cleaned_data.csv')
 
-# Display the cleaned data
+# Display the cleaned data 2
 
 print("Cleaned Data:\n", cleaner.get_data())
 print("Cleaned Data:\n", cleaner.get_data())
