@@ -6,6 +6,7 @@ class TestDataCleaner(unittest.TestCase):
 
     def setUp(self):
         self.cleaner = DataCleaner('data/sample_data.csv')
+        self.cleaner = DataCleaner('data/sample_data.csv')
 
     def test_handle_missing_values(self):
         self.cleaner.handle_missing_values(strategy='mean', columns=['age'])
