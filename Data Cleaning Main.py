@@ -4,7 +4,7 @@ import numpy as np
 class DataCleaner:
     def __init__(self, file_path):
         self.data = pd.read_csv(file_path)
-        #Self.git update Filee
+        #Self.git update Fileee
     
     def handle_missing_values(self, strategy='mean', fill_value=None, columns=None):
         if columns is None:
