@@ -9,7 +9,8 @@ class DataCleaner:
     def handle_missing_values(self, strategy='mean', fill_value=None, columns=None):
         if columns is None:
             columns = self.data.columns
-        
+                    columns = self.data.columns
+
         for column in columns:
             if strategy == 'mean':
                 self.data[column].fillna(self.data[column].mean(), inplace=True)
