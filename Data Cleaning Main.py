@@ -10,7 +10,7 @@ class DataCleaner:
         if columns is None:
             columns = self.data.columns
                     columns = self.data.columns
-
+#for
         for column in columns:
             if strategy == 'mean':
                 self.data[column].fillna(self.data[column].mean(), inplace=True)
